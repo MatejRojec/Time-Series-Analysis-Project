@@ -1,0 +1,45 @@
+\contentsline {figure}{\numberline {1}{\ignorespaces Time series visualisations.}}{5}{}%
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Amadora ground-level ozone levels in 2021}}}{5}{}%
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Reboleira ground-level ozone levels in 2021}}}{5}{}%
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {Beato ground-level ozone levels in 2021}}}{5}{}%
+\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {Olivais ground-level ozone levels in 2021}}}{5}{}%
+\contentsline {subfigure}{\numberline {(e)}{\ignorespaces {Entrecampos ground-level ozone levels in 2021}}}{5}{}%
+\contentsline {figure}{\numberline {2}{\ignorespaces Comparison of the five time series of hourly-ground-levels of $\text {O}_3$ in the first five days of 2021.}}{6}{}%
+\contentsline {figure}{\numberline {3}{\ignorespaces Seasonal-trend decomposition for Alfragide in the firt month of 2021.}}{7}{}%
+\contentsline {figure}{\numberline {4}{\ignorespaces Transformed time series data.}}{7}{}%
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Logarithmic transformation of the data.}}}{7}{}%
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {24 hour seasonal difference transformation of the data.}}}{7}{}%
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {24 hour seasonal and a 1 hour non-seasonal difference transformation of the data.}}}{7}{}%
+\contentsline {figure}{\numberline {5}{\ignorespaces ACF function for the Alfragide data.}}{8}{}%
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {ACF for the Alfragide data.}}}{8}{}%
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {ACF for the log transformed Alfragide data.}}}{8}{}%
+\contentsline {figure}{\numberline {6}{\ignorespaces ACF function for the log transformed Alfragide data.}}{9}{}%
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {PACF for the Alfragide data.}}}{9}{}%
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {PACF for the log transformed Alfragide data}}}{9}{}%
+\contentsline {figure}{\numberline {7}{\ignorespaces ACF and PACF function for the seasonally differentiated Alfragide data.}}{9}{}%
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {PACF for the seasonally differentiated Alfragide data.}}}{9}{}%
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {PACF for the seasonally differentiated Alfragide data}}}{9}{}%
+\contentsline {figure}{\numberline {8}{\ignorespaces ACF and PACF for the seasonally differentiated and normally differentiated Alfragide data.}}{9}{}%
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {PACF for the seasonally differentiated and normally differentiated Alfragide data.}}}{9}{}%
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {PACF for the seasonally differentiated and normally differentiated Alfragide data}}}{9}{}%
+\contentsline {figure}{\numberline {9}{\ignorespaces Residual analysis of the SARIMA$(1,0,1) \times (1,1,1)_{24}$.}}{11}{}%
+\contentsline {figure}{\numberline {10}{\ignorespaces Residual analysis of the SARIMA$(1,0,1) \times (1,1,1)_{24}$.}}{12}{}%
+\contentsline {figure}{\numberline {11}{\ignorespaces Time series visualisations.}}{13}{}%
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Predicted and original hourly-ground-levels of ozon in Alfragide.}}}{13}{}%
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Predicted and original hourly-ground-levels of ozon in Reboleira.}}}{13}{}%
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {Predicted and original hourly-ground-levels of ozon in Beato.}}}{13}{}%
+\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {Predicted and original hourly-ground-levels of ozon in Olivais.}}}{13}{}%
+\contentsline {subfigure}{\numberline {(e)}{\ignorespaces {Predicted and original hourly-ground-levels of ozon in Entrecampos,}}}{13}{}%
+\contentsline {figure}{\numberline {12}{\ignorespaces Time series of hourly-ground-levels of $\text {O}_3$ visualisation.}}{14}{}%
+\contentsline {figure}{\numberline {13}{\ignorespaces The sample ACF for the five time series.}}{15}{}%
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {The sample ACF for Altri-SGPS.}}}{15}{}%
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {The sample ACF for Mota Engil.}}}{15}{}%
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {The sample ACF for Ren.}}}{15}{}%
+\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {The sample ACF for Sonae.}}}{15}{}%
+\contentsline {subfigure}{\numberline {(e)}{\ignorespaces {The sample ACF for The Navigator Company.}}}{15}{}%
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Plot of the standardised residuals for the model APARCH(1, 1).}}}{16}{}%
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {The ACF function of the standardised residuals for the model APARCH(1, 1).}}}{16}{}%
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {Q-Q plot for the standardised residuals for the model APARCH(1, 1).}}}{16}{}%
+\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {Plot of the standardised residuals for the model ARCH(3).}}}{17}{}%
+\contentsline {subfigure}{\numberline {(e)}{\ignorespaces {The ACF function of the standardised residuals for the model ARCH(3).}}}{17}{}%
+\contentsline {subfigure}{\numberline {(f)}{\ignorespaces {Q-Q plot for the standardised residuals for the model ARCH(3).}}}{17}{}%

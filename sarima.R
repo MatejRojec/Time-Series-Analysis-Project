@@ -28,7 +28,7 @@ Alfragide_Amadora$ozon <- na_interpolation(Alfragide_Amadora$ozon)
 # plot the data
 Alfragide_Amadora$time <- as.POSIXct(Alfragide_Amadora$time, format = "%Y-%m-%d %H:%M:%S")
 
-plot1 <- ggplot(Alfragide_Amadora[48:72,], aes(x = time, y = ozon, color = missing, group = 1)) +
+plot1 <- ggplot(Alfragide_Amadora, aes(x = time, y = ozon, color = missing, group = 1)) +
   geom_point() +
   scale_color_manual(values = c("blue", "red"), labels = c("Known", "Missing")) +
   labs(x = "Time", y = "Ozono (µg/m3)", title = "Alfragide/Amadora hourly ozon levels in 2021") +
@@ -85,15 +85,15 @@ data <- data.frame(Alfragide_Amadora$ozon, Reboleira$ozon, Entrecampos$ozon, Oli
 cor(data)
 
 combined_plot <- ggplot() +
-  geom_line(data = Alfragide_Amadora, aes(x = time, y = ozon, color = "Alfragide/Amadora"), size = 0.8) +
-  geom_line(data = Reboleira, aes(x = time, y = ozon, color = "Reboleira"), size = 0.8) +
-  geom_line(data = Beato, aes(x = time, y = ozon, color = "Beato"), size = 0.8) +
-  geom_line(data = Olivais, aes(x = time, y = ozon, color = "Olivais"), size = 0.8) +
-  geom_line(data = Entrecampos, aes(x = time, y = ozon, color = "Entrecampos"), size = 0.8) +
+  geom_line(data = Alfragide_Amadora[1:100,], aes(x = time, y = ozon, color = "Alfragide/Amadora"), size = 0.8) +
+  geom_line(data = Reboleira[1:100,], aes(x = time, y = ozon, color = "Reboleira"), size = 0.8) +
+  geom_line(data = Beato[1:100,], aes(x = time, y = ozon, color = "Beato"), size = 0.8) +
+  geom_line(data = Olivais[1:100,], aes(x = time, y = ozon, color = "Olivais"), size = 0.8) +
+  geom_line(data = Entrecampos[1:100,], aes(x = time, y = ozon, color = "Entrecampos"), size = 0.8) +
   scale_color_manual(values = c("Alfragide/Amadora" = "blue", "Reboleira" = "red", "Beato" = "green",
                                 "Olivais" = "purple", "Entrecampos" = "orange"),
                      labels = c("Alfragide/Amadora", "Reboleira", "Beato", "Olivais", "Entrecampos")) +
-  labs(x = "Time", y = "Ozono (µg/m3)", title = "Hourly Ozone Levels in 2021") +
+  labs(x = "Time", y = "Ozono (µg/m3)", title = "Hourly Ozone Levels in the first five days of 2021") +
   theme_minimal()
 
 # Display the combined plot
@@ -105,7 +105,12 @@ ts_Entrecampos <- ts(Entrecampos$ozon, start = c(2021, 1, 1, 0), frequency = 24)
 ts_Olivais <- ts(Olivais$ozon, start = c(2021, 1, 1, 0), frequency = 24)
 ts_Reboleira <- ts(Reboleira$ozon, start = c(2021, 1, 1, 0), frequency = 24)
 
+ts_log_Alfragide_Amadora <- ts(log(Alfragide_Amadora$ozon + 0.001)[1:4000], start = c(2021, 1, 1, 0), frequency = 24)
+y_log_Alfragide_Amadora <- stl(ts_log_Alfragide_Amadora , s.window="period")
 y_Alfragide_Amadora <- stl(ts_Alfragide_Amadora , s.window="period")
+sarima_model <- auto.arima(ts_log_Alfragide_Amadora)
+print(sarima_model)
+
 y_Beato <- stl(ts_Beato , s.window="period")
 y_Entrecampos <- stl(ts_Entrecampos , s.window="period") 
 y_Olivais <- stl(ts_Olivais , s.window="period")
@@ -116,25 +121,60 @@ autoplot(y_Beato)
 autoplot(y_Entrecampos)
 autoplot(y_Olivais)
 autoplot(y_Reboleira)
+autoplot(y_log_Alfragide_Amadora)
 
-acf(ts_Alfragide_Amadora)
-pacf(ts_Alfragide_Amadora)
+acf(ts_Alfragide_Amadora, lag.max = 200, plot = TRUE)
+abline(v = seq(0, 200, 1), lty = 2)
+pacf(ts_Alfragide_Amadora, lag.max = 200, plot = TRUE)
+abline(v = seq(0, 200, 1), lty = 2)
 
-sarima_model <- auto.arima(ts_data)
 
-acf(y_Alfragide_Amadora$time.series[,1])
-pacf(y_Alfragide_Amadora$time.series[,1])
+acf(ts_log_Alfragide_Amadora, lag.max = 200, plot = TRUE)
+abline(v = seq(0, 200, 1), lty = 2)
+pacf(ts_log_Alfragide_Amadora, lag.max = 200, plot = TRUE)
+abline(v = seq(0, 200, 1), lty = 2)
 
-acf(ts_Beato)
-pacf(ts_Beato)
+tsdisplay ( diff ( ts_log_Alfragide_Amadora ,24) , lag.max = 200 ,
+            main = " Seasonally differenced : (0 ,0 ,0) x (0 ,1 ,0) _ 24 " , xlab = " Time ( hrs ) " )
 
-acf(ts_Entrecampos)
-pacf(ts_Entrecampos)
+sarima_model <- auto.arima(ts_Alfragide_Amadora)
+print(sarima_model)
+print(sarima_model$arma)
 
-acf(ts_Olivais)
-pacf(ts_Olivais)
 
-acf(ts_Reboleira)
-pacf(ts_Reboleira)
+acf(y_Alfragide_Amadora$time.series[,1], lag.max = 200, plot = TRUE)
+abline(v = seq(0, 200, 1), lty = 2)
 
+pacf(y_Alfragide_Amadora$time.series[,1], lag.max = 200, plot = TRUE)
+abline(v = seq(0, 200, 1), lty = 2)
+
+acf(y_log_Alfragide_Amadora$time.series[,1], lag.max = 200, plot = TRUE)
+abline(v = seq(0, 200, 1), lty = 2)
+
+pacf(y_log_Alfragide_Amadora$time.series[,1], lag.max = 200, plot = TRUE)
+abline(v = seq(0, 200, 1), lty = 2)
+
+
+acf(ts_Beato, lag.max = 200, plot = TRUE)
+abline(v = seq(0, 200, 1), lty = 2)
+pacf(ts_Beato, lag.max = 200, plot = TRUE)
+abline(v = seq(0, 200, 1), lty = 2)
+
+acf(ts_Entrecampos, lag.max = 200, plot = TRUE)
+abline(v = seq(0, 200, 1), lty = 2)
+pacf(ts_Entrecampos, lag.max = 200, plot = TRUE)
+abline(v = seq(0, 200, 1), lty = 2)
+
+acf(ts_Olivais, lag.max = 200, plot = TRUE)
+abline(v = seq(0, 200, 1), lty = 2)
+pacf(ts_Olivais, lag.max = 200, plot = TRUE)
+abline(v = seq(0, 200, 1), lty = 2)
+
+acf(ts_Reboleira, lag.max = 200, plot = TRUE)
+abline(v = seq(0, 200, 1), lty = 2)
+pacf(ts_Reboleira, lag.max = 200, plot = TRUE)
+abline(v = seq(0, 200, 1), lty = 2)
+
+
+# ARIMA(3,1,5)(2,0,0)[24] 
 
