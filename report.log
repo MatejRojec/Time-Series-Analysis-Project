@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.10) (preloaded format=pdflatex 2022.11.8)  23 JUN 2023 17:45
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.10) (preloaded format=pdflatex 2022.11.8)  24 JUN 2023 13:22
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -219,6 +219,8 @@ Package: appendix 2020/02/08 v1.2c extra appendix facilities
 \c@@pps=\count292
 \c@@ppsavesec=\count293
 \c@@ppsaveapp=\count294
+) (C:\Users\matej\AppData\Local\Programs\MiKTeX\tex/latex/placeins\placeins.sty
+Package: placeins 2005/04/18  v 2.2
 ) (C:\Users\matej\AppData\Local\Programs\MiKTeX\tex/latex/ncctools\nccmath.sty
 Package: nccmath 2006/01/20 v1.3 Additional Math Commands (NCC)
 \NCC@fracrulewidth=\dimen181
@@ -226,23 +228,33 @@ Package: nccmath 2006/01/20 v1.3 Additional Math Commands (NCC)
 File: l3backend-pdftex.def 2022-09-28 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count295
 \l__pdf_internal_box=\box58
-) (report.aux)
+) (report.aux
+
+LaTeX Warning: Label `i3' multiply defined.
+
+
+LaTeX Warning: Label `i3' multiply defined.
+
+
+LaTeX Warning: Label `i3' multiply defined.
+
+)
 \openout1 = `report.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 18.
-LaTeX Font Info:    ... okay on input line 18.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 18.
-LaTeX Font Info:    ... okay on input line 18.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 18.
-LaTeX Font Info:    ... okay on input line 18.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 18.
-LaTeX Font Info:    ... okay on input line 18.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 18.
-LaTeX Font Info:    ... okay on input line 18.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 18.
-LaTeX Font Info:    ... okay on input line 18.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 18.
-LaTeX Font Info:    ... okay on input line 18.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
  (C:\Users\matej\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count296
@@ -269,273 +281,290 @@ File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 \tf@toc=\write3
 \openout3 = `report.toc'.
 
- (report.lof)
+ (report.lof
+Overfull \hbox (0.22289pt too wide) in paragraph at lines 22--22
+ \OT1/cmr/m/n/10 and the non sea-son-ally dif-fer-en-ti-ated time se-ries of hourly-ground- 
+ []
+
+[2])
 \tf@lof=\write4
 \openout4 = `report.lof'.
 
- (report.lot [2])
+ (report.lot)
 \tf@lot=\write5
 \openout5 = `report.lot'.
 
  [3] [4]
-<Plots1/eda1.png, id=25, 741.52031pt x 400.49625pt>
+<Plots1/eda1.png, id=29, 741.52031pt x 400.49625pt>
 File: Plots1/eda1.png Graphic file (type png)
 <use Plots1/eda1.png>
-Package pdftex.def Info: Plots1/eda1.png  used on input line 66.
+Package pdftex.def Info: Plots1/eda1.png  used on input line 122.
 (pdftex.def)             Requested size: 155.24895pt x 83.85002pt.
-<Plots1/eda2.png, id=26, 741.52031pt x 400.49625pt>
+<Plots1/eda2.png, id=30, 741.52031pt x 400.49625pt>
 File: Plots1/eda2.png Graphic file (type png)
 <use Plots1/eda2.png>
-Package pdftex.def Info: Plots1/eda2.png  used on input line 69.
+Package pdftex.def Info: Plots1/eda2.png  used on input line 125.
 (pdftex.def)             Requested size: 155.24895pt x 83.85002pt.
-<Plots1/eda3.png, id=27, 741.52031pt x 400.49625pt>
+<Plots1/eda3.png, id=31, 741.52031pt x 400.49625pt>
 File: Plots1/eda3.png Graphic file (type png)
 <use Plots1/eda3.png>
-Package pdftex.def Info: Plots1/eda3.png  used on input line 72.
+Package pdftex.def Info: Plots1/eda3.png  used on input line 128.
 (pdftex.def)             Requested size: 155.24895pt x 83.85002pt.
-<Plots1/eda4.png, id=28, 741.52031pt x 400.49625pt>
+<Plots1/eda4.png, id=32, 741.52031pt x 400.49625pt>
 File: Plots1/eda4.png Graphic file (type png)
 <use Plots1/eda4.png>
-Package pdftex.def Info: Plots1/eda4.png  used on input line 75.
+Package pdftex.def Info: Plots1/eda4.png  used on input line 131.
 (pdftex.def)             Requested size: 155.24895pt x 83.85002pt.
-<Plots1/eda5.png, id=29, 741.52031pt x 400.49625pt>
+<Plots1/eda5.png, id=33, 741.52031pt x 400.49625pt>
 File: Plots1/eda5.png Graphic file (type png)
 <use Plots1/eda5.png>
-Package pdftex.def Info: Plots1/eda5.png  used on input line 78.
+Package pdftex.def Info: Plots1/eda5.png  used on input line 134.
 (pdftex.def)             Requested size: 155.24895pt x 83.85002pt.
-LaTeX Font Info:    Trying to load font information for OMS+cmr on input line 88.
+
+Underfull \hbox (badness 2469) in paragraph at lines 134--134
+[]\OT1/cmr/m/n/8 (e) En-tre-cam-pos time se-ries of hourly-
+ []
+
+[5]
+LaTeX Font Info:    Trying to load font information for OMS+cmr on input line 144.
  (C:\Users\matej\AppData\Local\Programs\MiKTeX\tex/latex/base\omscmr.fd
 File: omscmr.fd 2019/12/16 v2.5j Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 88.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 144.
 
-Overfull \hbox (54.63977pt too wide) in paragraph at lines 87--97
+Overfull \hbox (54.63977pt too wide) in paragraph at lines 143--152
  [][] 
  []
 
-[5 <./Plots1/eda1.png> <./Plots1/eda2.png> <./Plots1/eda3.png> <./Plots1/eda4.png> <./Plots1/eda5.png>]
-<Plots1/eda6.png, id=40, 825.0825pt x 400.49625pt>
+<Plots1/eda6.png, id=39, 825.0825pt x 400.49625pt>
 File: Plots1/eda6.png Graphic file (type png)
 <use Plots1/eda6.png>
-Package pdftex.def Info: Plots1/eda6.png  used on input line 105.
+Package pdftex.def Info: Plots1/eda6.png  used on input line 160.
 (pdftex.def)             Requested size: 327.74895pt x 159.08955pt.
-<Plots1/eda7.png, id=41, 915.42pt x 400.49625pt>
+[6 <./Plots1/eda1.png> <./Plots1/eda2.png> <./Plots1/eda3.png> <./Plots1/eda4.png> <./Plots1/eda5.png>]
+<Plots1/eda7.png, id=49, 915.42pt x 400.49625pt>
 File: Plots1/eda7.png Graphic file (type png)
 <use Plots1/eda7.png>
-Package pdftex.def Info: Plots1/eda7.png  used on input line 116.
+Package pdftex.def Info: Plots1/eda7.png  used on input line 171.
 (pdftex.def)             Requested size: 276.00105pt x 120.74869pt.
- [6 <./Plots1/eda6.png>]
-<Plots1/eda16.png, id=46, 557.08125pt x 400.49625pt>
+ [7 <./Plots1/eda6.png>]
+<Plots1/eda16.png, id=55, 557.08125pt x 400.49625pt>
 File: Plots1/eda16.png Graphic file (type png)
 <use Plots1/eda16.png>
-Package pdftex.def Info: Plots1/eda16.png  used on input line 134.
+Package pdftex.def Info: Plots1/eda16.png  used on input line 189.
 (pdftex.def)             Requested size: 103.50105pt x 74.40842pt.
 
-Underfull \hbox (badness 1253) in paragraph at lines 134--134
+Underfull \hbox (badness 1253) in paragraph at lines 189--189
 []\OT1/cmr/m/n/8 (a) Log-a-rith-mic trans-for-ma-
  []
 
-<Plots1/eda17.png, id=47, 557.08125pt x 400.49625pt>
+<Plots1/eda17.png, id=56, 557.08125pt x 400.49625pt>
 File: Plots1/eda17.png Graphic file (type png)
 <use Plots1/eda17.png>
-Package pdftex.def Info: Plots1/eda17.png  used on input line 137.
+Package pdftex.def Info: Plots1/eda17.png  used on input line 192.
 (pdftex.def)             Requested size: 103.50105pt x 74.40842pt.
 
-Underfull \hbox (badness 2181) in paragraph at lines 137--137
+Underfull \hbox (badness 2181) in paragraph at lines 192--192
 \OT1/cmr/m/n/8 ence trans-for-ma-tion of the
  []
 
-<Plots1/eda18.png, id=48, 557.08125pt x 400.49625pt>
+<Plots1/eda18.png, id=57, 557.08125pt x 400.49625pt>
 File: Plots1/eda18.png Graphic file (type png)
 <use Plots1/eda18.png>
-Package pdftex.def Info: Plots1/eda18.png  used on input line 140.
+Package pdftex.def Info: Plots1/eda18.png  used on input line 195.
 (pdftex.def)             Requested size: 103.50105pt x 74.40842pt.
-[7 <./Plots1/eda7.png> <./Plots1/eda16.png> <./Plots1/eda17.png> <./Plots1/eda18.png>]
-<Plots1/eda8.png, id=57, 557.08125pt x 400.49625pt>
+[8 <./Plots1/eda7.png> <./Plots1/eda16.png> <./Plots1/eda17.png> <./Plots1/eda18.png>]
+<Plots1/eda8.png, id=65, 557.08125pt x 400.49625pt>
 File: Plots1/eda8.png Graphic file (type png)
 <use Plots1/eda8.png>
-Package pdftex.def Info: Plots1/eda8.png  used on input line 177.
+Package pdftex.def Info: Plots1/eda8.png  used on input line 232.
 (pdftex.def)             Requested size: 137.9979pt x 99.20715pt.
-<Plots1/eda9.png, id=58, 557.08125pt x 400.49625pt>
+<Plots1/eda9.png, id=66, 557.08125pt x 400.49625pt>
 File: Plots1/eda9.png Graphic file (type png)
 <use Plots1/eda9.png>
-Package pdftex.def Info: Plots1/eda9.png  used on input line 180.
+Package pdftex.def Info: Plots1/eda9.png  used on input line 235.
 (pdftex.def)             Requested size: 137.9979pt x 99.20715pt.
-<Plots1/eda10.png, id=59, 557.08125pt x 400.49625pt>
+<Plots1/eda10.png, id=67, 557.08125pt x 400.49625pt>
 File: Plots1/eda10.png Graphic file (type png)
 <use Plots1/eda10.png>
-Package pdftex.def Info: Plots1/eda10.png  used on input line 189.
+Package pdftex.def Info: Plots1/eda10.png  used on input line 245.
 (pdftex.def)             Requested size: 137.9979pt x 99.20715pt.
-<Plots1/eda11.png, id=60, 557.08125pt x 400.49625pt>
+
+Underfull \hbox (badness 1038) in paragraph at lines 245--245
+[]\OT1/cmr/m/n/8 (a) Sam-ple ACF for the log trans-
+ []
+
+<Plots1/eda11.png, id=68, 557.08125pt x 400.49625pt>
 File: Plots1/eda11.png Graphic file (type png)
 <use Plots1/eda11.png>
-Package pdftex.def Info: Plots1/eda11.png  used on input line 192.
+Package pdftex.def Info: Plots1/eda11.png  used on input line 248.
 (pdftex.def)             Requested size: 137.9979pt x 99.20715pt.
-<Plots1/eda12.png, id=61, 557.08125pt x 400.49625pt>
+<Plots1/eda12.png, id=69, 557.08125pt x 400.49625pt>
 File: Plots1/eda12.png Graphic file (type png)
 <use Plots1/eda12.png>
-Package pdftex.def Info: Plots1/eda12.png  used on input line 201.
+Package pdftex.def Info: Plots1/eda12.png  used on input line 258.
 (pdftex.def)             Requested size: 137.9979pt x 99.20715pt.
-<Plots1/eda13.png, id=62, 557.08125pt x 400.49625pt>
+<Plots1/eda13.png, id=70, 557.08125pt x 400.49625pt>
 File: Plots1/eda13.png Graphic file (type png)
 <use Plots1/eda13.png>
-Package pdftex.def Info: Plots1/eda13.png  used on input line 204.
+Package pdftex.def Info: Plots1/eda13.png  used on input line 261.
 (pdftex.def)             Requested size: 137.9979pt x 99.20715pt.
-<Plots1/eda14.png, id=63, 557.08125pt x 400.49625pt>
+<Plots1/eda14.png, id=71, 557.08125pt x 400.49625pt>
 File: Plots1/eda14.png Graphic file (type png)
 <use Plots1/eda14.png>
-Package pdftex.def Info: Plots1/eda14.png  used on input line 213.
+Package pdftex.def Info: Plots1/eda14.png  used on input line 272.
 (pdftex.def)             Requested size: 137.9979pt x 99.20715pt.
-<Plots1/eda15.png, id=64, 557.08125pt x 400.49625pt>
+<Plots1/eda15.png, id=72, 557.08125pt x 400.49625pt>
 File: Plots1/eda15.png Graphic file (type png)
 <use Plots1/eda15.png>
-Package pdftex.def Info: Plots1/eda15.png  used on input line 216.
+Package pdftex.def Info: Plots1/eda15.png  used on input line 276.
 (pdftex.def)             Requested size: 137.9979pt x 99.20715pt.
- [8 <./Plots1/eda8.png> <./Plots1/eda9.png>] [9 <./Plots1/eda10.png> <./Plots1/eda11.png> <./Plots1/eda12.png> <./Plots1/eda13.png> <./Plots1/eda14.png> <./Plots1/eda15.png>]
-<Plots1/res_a.png, id=79, 538.26094pt x 325.215pt>
+[9 <./Plots1/eda8.png> <./Plots1/eda9.png>]
+
+LaTeX Warning: Text page 10 contains only floats.
+
+[10 <./Plots1/eda10.png> <./Plots1/eda11.png> <./Plots1/eda12.png> <./Plots1/eda13.png> <./Plots1/eda14.png> <./Plots1/eda15.png>] [11]
+<Plots1/res_a.png, id=90, 538.26094pt x 325.215pt>
 File: Plots1/res_a.png Graphic file (type png)
 <use Plots1/res_a.png>
-Package pdftex.def Info: Plots1/res_a.png  used on input line 288.
+Package pdftex.def Info: Plots1/res_a.png  used on input line 346.
 (pdftex.def)             Requested size: 327.74895pt x 198.02356pt.
- [10]
-<Plots1/ra_2.png, id=83, 538.26094pt x 325.215pt>
+<Plots1/ra_2.png, id=91, 538.26094pt x 325.215pt>
 File: Plots1/ra_2.png Graphic file (type png)
 <use Plots1/ra_2.png>
-Package pdftex.def Info: Plots1/ra_2.png  used on input line 301.
+Package pdftex.def Info: Plots1/ra_2.png  used on input line 360.
 (pdftex.def)             Requested size: 327.74895pt x 198.02356pt.
- [11 <./Plots1/res_a.png>]
-<Plots1/se1.png, id=88, 538.26094pt x 325.215pt>
+ [12 <./Plots1/res_a.png>]
+<Plots1/se1.png, id=96, 538.26094pt x 325.215pt>
 File: Plots1/se1.png Graphic file (type png)
 <use Plots1/se1.png>
-Package pdftex.def Info: Plots1/se1.png  used on input line 352.
+Package pdftex.def Info: Plots1/se1.png  used on input line 419.
 (pdftex.def)             Requested size: 155.24895pt x 93.7988pt.
-<Plots1/se2.png, id=89, 538.26094pt x 325.215pt>
+<Plots1/se2.png, id=97, 538.26094pt x 325.215pt>
 File: Plots1/se2.png Graphic file (type png)
 <use Plots1/se2.png>
-Package pdftex.def Info: Plots1/se2.png  used on input line 355.
+Package pdftex.def Info: Plots1/se2.png  used on input line 422.
 (pdftex.def)             Requested size: 155.24895pt x 93.7988pt.
-<Plots1/se3.png, id=90, 538.26094pt x 325.215pt>
+<Plots1/se3.png, id=98, 538.26094pt x 325.215pt>
 File: Plots1/se3.png Graphic file (type png)
 <use Plots1/se3.png>
-Package pdftex.def Info: Plots1/se3.png  used on input line 358.
+Package pdftex.def Info: Plots1/se3.png  used on input line 425.
 (pdftex.def)             Requested size: 155.24895pt x 93.7988pt.
-<Plots1/se4.png, id=91, 538.26094pt x 325.215pt>
+<Plots1/se4.png, id=99, 538.26094pt x 325.215pt>
 File: Plots1/se4.png Graphic file (type png)
 <use Plots1/se4.png>
-Package pdftex.def Info: Plots1/se4.png  used on input line 361.
+Package pdftex.def Info: Plots1/se4.png  used on input line 428.
 (pdftex.def)             Requested size: 155.24895pt x 93.7988pt.
-<Plots1/se5.png, id=92, 538.26094pt x 325.215pt>
+<Plots1/se5.png, id=100, 538.26094pt x 325.215pt>
 File: Plots1/se5.png Graphic file (type png)
 <use Plots1/se5.png>
-Package pdftex.def Info: Plots1/se5.png  used on input line 364.
+Package pdftex.def Info: Plots1/se5.png  used on input line 431.
 (pdftex.def)             Requested size: 155.24895pt x 93.7988pt.
- [12 <./Plots1/ra_2.png>] [13 <./Plots1/se1.png> <./Plots1/se2.png> <./Plots1/se3.png> <./Plots1/se4.png> <./Plots1/se5.png>]
-<Plots2/plot1.png, id=107, 830.35219pt x 325.215pt>
+ [13 <./Plots1/ra_2.png>] [14 <./Plots1/se1.png> <./Plots1/se2.png> <./Plots1/se3.png> <./Plots1/se4.png> <./Plots1/se5.png>]
+<Plots2/plot1.png, id=115, 830.35219pt x 325.215pt>
 File: Plots2/plot1.png Graphic file (type png)
 <use Plots2/plot1.png>
-Package pdftex.def Info: Plots2/plot1.png  used on input line 415.
+Package pdftex.def Info: Plots2/plot1.png  used on input line 480.
 (pdftex.def)             Requested size: 327.74895pt x 128.36671pt.
- [14 <./Plots2/plot1.png>]
-<Plots2/acf1.png, id=114, 830.35219pt x 325.215pt>
+<Plots2/acf1.png, id=116, 830.35219pt x 325.215pt>
 File: Plots2/acf1.png Graphic file (type png)
 <use Plots2/acf1.png>
-Package pdftex.def Info: Plots2/acf1.png  used on input line 427.
+Package pdftex.def Info: Plots2/acf1.png  used on input line 493.
 (pdftex.def)             Requested size: 155.24895pt x 60.80397pt.
-<Plots2/acf2.png, id=115, 830.35219pt x 325.215pt>
+<Plots2/acf2.png, id=117, 830.35219pt x 325.215pt>
 File: Plots2/acf2.png Graphic file (type png)
 <use Plots2/acf2.png>
-Package pdftex.def Info: Plots2/acf2.png  used on input line 430.
+Package pdftex.def Info: Plots2/acf2.png  used on input line 496.
 (pdftex.def)             Requested size: 155.24895pt x 60.80397pt.
-<Plots2/acf3.png, id=116, 830.35219pt x 325.215pt>
+<Plots2/acf3.png, id=118, 830.35219pt x 325.215pt>
 File: Plots2/acf3.png Graphic file (type png)
 <use Plots2/acf3.png>
-Package pdftex.def Info: Plots2/acf3.png  used on input line 433.
+Package pdftex.def Info: Plots2/acf3.png  used on input line 499.
 (pdftex.def)             Requested size: 155.24895pt x 60.80397pt.
-<Plots2/acf4.png, id=117, 830.35219pt x 325.215pt>
+<Plots2/acf4.png, id=119, 830.35219pt x 325.215pt>
 File: Plots2/acf4.png Graphic file (type png)
 <use Plots2/acf4.png>
-Package pdftex.def Info: Plots2/acf4.png  used on input line 436.
+Package pdftex.def Info: Plots2/acf4.png  used on input line 502.
 (pdftex.def)             Requested size: 155.24895pt x 60.80397pt.
-<Plots2/acf5.png, id=118, 830.35219pt x 325.215pt>
+<Plots2/acf5.png, id=120, 830.35219pt x 325.215pt>
 File: Plots2/acf5.png Graphic file (type png)
 <use Plots2/acf5.png>
-Package pdftex.def Info: Plots2/acf5.png  used on input line 439.
+Package pdftex.def Info: Plots2/acf5.png  used on input line 505.
 (pdftex.def)             Requested size: 155.24895pt x 60.80397pt.
- [15 <./Plots2/acf1.png> <./Plots2/acf2.png> <./Plots2/acf3.png> <./Plots2/acf4.png> <./Plots2/acf5.png>]
-Overfull \hbox (0.63869pt too wide) in paragraph at lines 482--483
+ [15] [16 <./Plots2/plot1.png> <./Plots2/acf1.png> <./Plots2/acf2.png> <./Plots2/acf3.png> <./Plots2/acf4.png> <./Plots2/acf5.png>]
+Overfull \hbox (0.63869pt too wide) in paragraph at lines 576--577
 []\OT1/cmr/m/n/10 For es-ti-ma-tion of pa-ram-e-ters we have used the pack-ages [][]\OT1/cmtt/m/n/10 fGarch []\OT1/cmr/m/n/10 and [][]\OT1/cmtt/m/n/10 rugarch[]\OT1/cmr/m/n/10 . 
  []
 
-<Plots2/d_3.png, id=127, 536.0025pt x 325.215pt>
+<Plots2/d_3.png, id=135, 536.0025pt x 325.215pt>
 File: Plots2/d_3.png Graphic file (type png)
 <use Plots2/d_3.png>
-Package pdftex.def Info: Plots2/d_3.png  used on input line 496.
+Package pdftex.def Info: Plots2/d_3.png  used on input line 590.
 (pdftex.def)             Requested size: 155.24895pt x 94.19579pt.
-<Plots2/d_1.png, id=128, 536.0025pt x 325.215pt>
+<Plots2/d_1.png, id=136, 536.0025pt x 325.215pt>
 File: Plots2/d_1.png Graphic file (type png)
 <use Plots2/d_1.png>
-Package pdftex.def Info: Plots2/d_1.png  used on input line 500.
+Package pdftex.def Info: Plots2/d_1.png  used on input line 594.
 (pdftex.def)             Requested size: 155.24895pt x 94.19579pt.
-<Plots2/d_2.png, id=129, 536.0025pt x 325.215pt>
+<Plots2/d_2.png, id=137, 536.0025pt x 325.215pt>
 File: Plots2/d_2.png Graphic file (type png)
 <use Plots2/d_2.png>
-Package pdftex.def Info: Plots2/d_2.png  used on input line 503.
-(pdftex.def)             Requested size: 155.24895pt x 94.19579pt.
-[16 <./Plots2/d_3.png> <./Plots2/d_1.png> <./Plots2/d_2.png>]
-<Plots2/d_4.png, id=136, 536.0025pt x 325.215pt>
-File: Plots2/d_4.png Graphic file (type png)
-<use Plots2/d_4.png>
-Package pdftex.def Info: Plots2/d_4.png  used on input line 513.
-(pdftex.def)             Requested size: 155.24895pt x 94.19579pt.
-<Plots2/d_5.png, id=137, 536.0025pt x 325.215pt>
-File: Plots2/d_5.png Graphic file (type png)
-<use Plots2/d_5.png>
-Package pdftex.def Info: Plots2/d_5.png  used on input line 517.
-(pdftex.def)             Requested size: 155.24895pt x 94.19579pt.
-<Plots2/d_6.png, id=138, 536.0025pt x 325.215pt>
-File: Plots2/d_6.png Graphic file (type png)
-<use Plots2/d_6.png>
-Package pdftex.def Info: Plots2/d_6.png  used on input line 520.
+Package pdftex.def Info: Plots2/d_2.png  used on input line 597.
 (pdftex.def)             Requested size: 155.24895pt x 94.19579pt.
 
-Overfull \hbox (73.99844pt too wide) in paragraph at lines 528--538
+LaTeX Warning: Reference `par:log' on page 17 undefined on input line 604.
+
+
+Overfull \hbox (18.45885pt too wide) in paragraph at lines 608--615
  [][] 
  []
 
-[17 <./Plots2/d_4.png> <./Plots2/d_5.png> <./Plots2/d_6.png>] [18]
-Underfull \hbox (badness 2073) in paragraph at lines 646--649
-[]\OT1/cmr/m/it/10 Qualar \OT1/cmr/m/n/10 [viewed 31. 05. 2023], can be found at $\OT1/cmtt/m/n/10 https : / / qualar .
+<Plots2/d_4.png, id=138, 536.0025pt x 325.215pt>
+File: Plots2/d_4.png Graphic file (type png)
+<use Plots2/d_4.png>
+Package pdftex.def Info: Plots2/d_4.png  used on input line 626.
+(pdftex.def)             Requested size: 155.24895pt x 94.19579pt.
+<Plots2/d_5.png, id=139, 536.0025pt x 325.215pt>
+File: Plots2/d_5.png Graphic file (type png)
+<use Plots2/d_5.png>
+Package pdftex.def Info: Plots2/d_5.png  used on input line 630.
+(pdftex.def)             Requested size: 155.24895pt x 94.19579pt.
+<Plots2/d_6.png, id=140, 536.0025pt x 325.215pt>
+File: Plots2/d_6.png Graphic file (type png)
+<use Plots2/d_6.png>
+Package pdftex.def Info: Plots2/d_6.png  used on input line 633.
+(pdftex.def)             Requested size: 155.24895pt x 94.19579pt.
+[17] [18 <./Plots2/d_3.png> <./Plots2/d_1.png> <./Plots2/d_2.png>] [19 <./Plots2/d_4.png> <./Plots2/d_5.png> <./Plots2/d_6.png>] [20] [21]
+Underfull \hbox (badness 10000) in paragraph at lines 861--864
+\OT1/cmtt/m/n/10 https : / / climate-[]adapt . eea . europa . eu / en / observatory / evidence /
  []
 
-
-Underfull \hbox (badness 5175) in paragraph at lines 660--663
-[]\OT1/cmr/m/it/10 Body Frame Size Mea-sur-ing Ta-bles \OT1/cmr/m/n/10 [viewed 28. 05. 2023], can
+[22]
+Underfull \hbox (badness 10000) in paragraph at lines 876--879
+\OT1/cmr/m/n/10 can be found at $\OT1/cmtt/m/n/10 https : / / medium . datadriveninvestor . com /
  []
 
+[23] (report.aux)
 
-Underfull \hbox (badness 2253) in paragraph at lines 666--669
-[]\OT1/cmr/m/it/10 Blood Glu-cose (Sugar) Test \OT1/cmr/m/n/10 [viewed 28. 05. 2023], can be found
- []
+LaTeX Warning: There were undefined references.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 666--669
-\OT1/cmr/m/n/10 at $\OT1/cmtt/m/n/10 https : / / my . clevelandclinic . org / health / diagnostics /
- []
+LaTeX Warning: There were multiply-defined labels.
 
-[19] [20] (report.aux) ) 
+ ) 
 Here is how much of TeX's memory you used:
- 5175 strings out of 475385
- 82833 string characters out of 2776907
- 441754 words of memory out of 3000000
- 26448 multiletter control sequences out of 15000+600000
- 481009 words of font info for 68 fonts, out of 8000000 for 9000
+ 5233 strings out of 475385
+ 84019 string characters out of 2776907
+ 439959 words of memory out of 3000000
+ 26496 multiletter control sequences out of 15000+600000
+ 484079 words of font info for 79 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 55i,10n,62p,838b,303s stack positions out of 10000i,1000n,20000p,200000b,80000s
- <C:\Users\matej\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1000.pk><C:/Users/matej/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Users/matej/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/matej/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx9.pfb><C:/Users/matej/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/matej/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/matej/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Users/matej/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/matej/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/matej/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Users/matej/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/matej/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/matej/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr9.pfb><C:/Users/matej/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/matej/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy7.pfb><C:/Users/matej/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti10.pfb><C:/Users/matej/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
-Output written on report.pdf (20 pages, 555402 bytes).
+ 55i,10n,62p,854b,307s stack positions out of 10000i,1000n,20000p,200000b,80000s
+ <C:\Users\matej\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1000.pk><C:/Users/matej/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Users/matej/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/matej/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx9.pfb><C:/Users/matej/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/matej/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/matej/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Users/matej/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi9.pfb><C:/Users/matej/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/matej/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/matej/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Users/matej/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Users/matej/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/matej/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/matej/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr9.pfb><C:/Users/matej/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/matej/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy6.pfb><C:/Users/matej/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy7.pfb><C:/Users/matej/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy9.pfb><C:/Users/matej/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti10.pfb><C:/Users/matej/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt10.pfb><C:/Users/matej/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt9.pfb>
+Output written on report.pdf (23 pages, 624509 bytes).
 PDF statistics:
- 226 PDF objects out of 1000 (max. 8388607)
+ 260 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  186 words of extra memory for PDF output out of 10000 (max. 10000000)
 

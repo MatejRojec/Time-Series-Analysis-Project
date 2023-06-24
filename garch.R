@@ -18,6 +18,7 @@ data_list <- lapply(files, function(file) {
   data <- data[,c("Date","log_returns", "Close")]
   data$Date <- as.Date(data$Date)
   na.omit(data)
+  data
 })
 
 
