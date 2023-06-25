@@ -1,3 +1,0 @@
-https://github.com/kkaryl/AI6123-Time_Series_Analysis_R
-
-https://github.com/RamiroCope/TimeSeriesModelling/tree/master/Predicting_emissions

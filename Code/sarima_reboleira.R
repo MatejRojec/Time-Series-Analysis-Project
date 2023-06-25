@@ -10,11 +10,6 @@ library(forecast)
 
 ####################################### Functions #############################################################################################
 
-
-# Set the working directory to the parent directory
-setwd("C:/Users/matej/Documents/FMF mag/2.semester/Time Series Analysis/Research Project")
-
-
 p_values <- function(model){
   (1-pnorm(abs(model$coef)/sqrt(diag(model$var.coef))))*2 * 100
 }
@@ -245,6 +240,7 @@ sqrt(mean(model3$residuals^2))
 
 model32 <- arima(x = ts_Reboleira, order = c(3, 0, 1), seasonal = list(order = c(1, 0, 1), period = 24))
 model32
+p_values(model32)  #  
 sqrt(mean(model32$residuals^2))
 
 

@@ -11,10 +11,6 @@ library(forecast)
 ####################################### Functions #############################################################################################
 
 
-# Set the working directory to the parent directory
-setwd("C:/Users/matej/Documents/FMF mag/2.semester/Time Series Analysis/Research Project")
-
-
 p_values <- function(model){
   (1-pnorm(abs(model$coef)/sqrt(diag(model$var.coef))))*2 * 100
 }

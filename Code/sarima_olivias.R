@@ -10,11 +10,6 @@ library(forecast)
 
 ####################################### Functions #############################################################################################
 
-
-# Set the working directory to the parent directory
-setwd("C:/Users/matej/Documents/FMF mag/2.semester/Time Series Analysis/Research Project")
-
-
 p_values <- function(model){
   (1-pnorm(abs(model$coef)/sqrt(diag(model$var.coef))))*2 * 100
 }
@@ -209,7 +204,7 @@ tsdisplay(residuals(model000), lag.max = 80)
 tsdiag(model000, gof.lag = 40)
 model000$aic;
 sqrt(mean(model000$residuals^2))
-
+round(p_values(model000), 5)
 
 
 
