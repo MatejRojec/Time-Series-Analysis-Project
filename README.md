@@ -1,4 +1,4 @@
-# Time-Series-Analysis-Research-Project
+# Time-Series-Analysis-Project
 
 Code structure:
 
